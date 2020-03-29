@@ -16,6 +16,8 @@ while(flag):
     for j in range(1, 20):
         if i%j == 0:
             g += 1
+        else:
+            break
         if g == 19:
             szukana = i
             flag = False
